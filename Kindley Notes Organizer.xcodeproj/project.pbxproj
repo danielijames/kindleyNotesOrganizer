@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3E0B39E2999A5B2007DDEAF /* Kindley_Notes_OrganizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B39D2999A5B2007DDEAF /* Kindley_Notes_OrganizerApp.swift */; };
+		E3E0B3A02999A5B2007DDEAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B39F2999A5B2007DDEAF /* ContentView.swift */; };
+		E3E0B3A22999A5B3007DDEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E0B3A12999A5B3007DDEAF /* Assets.xcassets */; };
+		E3E0B3A52999A5B3007DDEAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E0B3A42999A5B3007DDEAF /* Preview Assets.xcassets */; };
+		E3E0B3A72999A5B3007DDEAF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B3A62999A5B3007DDEAF /* Persistence.swift */; };
+		E3E0B3AA2999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B3A82999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodeld */; };
+		E3E0B3B52999A5B3007DDEAF /* Kindley_Notes_OrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B3B42999A5B3007DDEAF /* Kindley_Notes_OrganizerTests.swift */; };
+		E3E0B3BF2999A5B3007DDEAF /* Kindley_Notes_OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B3BE2999A5B3007DDEAF /* Kindley_Notes_OrganizerUITests.swift */; };
+		E3E0B3C12999A5B3007DDEAF /* Kindley_Notes_OrganizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B3C02999A5B3007DDEAF /* Kindley_Notes_OrganizerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E0B3B12999A5B3007DDEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E0B3922999A5B2007DDEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E0B3992999A5B2007DDEAF;
+			remoteInfo = "Kindley Notes Organizer";
+		};
+		E3E0B3BB2999A5B3007DDEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E0B3922999A5B2007DDEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E0B3992999A5B2007DDEAF;
+			remoteInfo = "Kindley Notes Organizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3E0B39A2999A5B2007DDEAF /* Kindley Notes Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kindley Notes Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E0B39D2999A5B2007DDEAF /* Kindley_Notes_OrganizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindley_Notes_OrganizerApp.swift; sourceTree = "<group>"; };
+		E3E0B39F2999A5B2007DDEAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3E0B3A12999A5B3007DDEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E0B3A42999A5B3007DDEAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3E0B3A62999A5B3007DDEAF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E3E0B3A92999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kindley_Notes_Organizer.xcdatamodel; sourceTree = "<group>"; };
+		E3E0B3AB2999A5B3007DDEAF /* Kindley_Notes_Organizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kindley_Notes_Organizer.entitlements; sourceTree = "<group>"; };
+		E3E0B3B02999A5B3007DDEAF /* Kindley Notes OrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kindley Notes OrganizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E0B3B42999A5B3007DDEAF /* Kindley_Notes_OrganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindley_Notes_OrganizerTests.swift; sourceTree = "<group>"; };
+		E3E0B3BA2999A5B3007DDEAF /* Kindley Notes OrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kindley Notes OrganizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E0B3BE2999A5B3007DDEAF /* Kindley_Notes_OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindley_Notes_OrganizerUITests.swift; sourceTree = "<group>"; };
+		E3E0B3C02999A5B3007DDEAF /* Kindley_Notes_OrganizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindley_Notes_OrganizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E0B3972999A5B2007DDEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B3AD2999A5B3007DDEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B3B72999A5B3007DDEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3E0B3912999A5B2007DDEAF = {
+			isa = PBXGroup;
+			children = (
+				E3E0B39C2999A5B2007DDEAF /* Kindley Notes Organizer */,
+				E3E0B3B32999A5B3007DDEAF /* Kindley Notes OrganizerTests */,
+				E3E0B3BD2999A5B3007DDEAF /* Kindley Notes OrganizerUITests */,
+				E3E0B39B2999A5B2007DDEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E0B39B2999A5B2007DDEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0B39A2999A5B2007DDEAF /* Kindley Notes Organizer.app */,
+				E3E0B3B02999A5B3007DDEAF /* Kindley Notes OrganizerTests.xctest */,
+				E3E0B3BA2999A5B3007DDEAF /* Kindley Notes OrganizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E0B39C2999A5B2007DDEAF /* Kindley Notes Organizer */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0B39D2999A5B2007DDEAF /* Kindley_Notes_OrganizerApp.swift */,
+				E3E0B39F2999A5B2007DDEAF /* ContentView.swift */,
+				E3E0B3A12999A5B3007DDEAF /* Assets.xcassets */,
+				E3E0B3A62999A5B3007DDEAF /* Persistence.swift */,
+				E3E0B3AB2999A5B3007DDEAF /* Kindley_Notes_Organizer.entitlements */,
+				E3E0B3A82999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodeld */,
+				E3E0B3A32999A5B3007DDEAF /* Preview Content */,
+			);
+			path = "Kindley Notes Organizer";
+			sourceTree = "<group>";
+		};
+		E3E0B3A32999A5B3007DDEAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0B3A42999A5B3007DDEAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3E0B3B32999A5B3007DDEAF /* Kindley Notes OrganizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0B3B42999A5B3007DDEAF /* Kindley_Notes_OrganizerTests.swift */,
+			);
+			path = "Kindley Notes OrganizerTests";
+			sourceTree = "<group>";
+		};
+		E3E0B3BD2999A5B3007DDEAF /* Kindley Notes OrganizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0B3BE2999A5B3007DDEAF /* Kindley_Notes_OrganizerUITests.swift */,
+				E3E0B3C02999A5B3007DDEAF /* Kindley_Notes_OrganizerUITestsLaunchTests.swift */,
+			);
+			path = "Kindley Notes OrganizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E0B3992999A5B2007DDEAF /* Kindley Notes Organizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E0B3C42999A5B3007DDEAF /* Build configuration list for PBXNativeTarget "Kindley Notes Organizer" */;
+			buildPhases = (
+				E3E0B3962999A5B2007DDEAF /* Sources */,
+				E3E0B3972999A5B2007DDEAF /* Frameworks */,
+				E3E0B3982999A5B2007DDEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kindley Notes Organizer";
+			productName = "Kindley Notes Organizer";
+			productReference = E3E0B39A2999A5B2007DDEAF /* Kindley Notes Organizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3E0B3AF2999A5B3007DDEAF /* Kindley Notes OrganizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E0B3C72999A5B3007DDEAF /* Build configuration list for PBXNativeTarget "Kindley Notes OrganizerTests" */;
+			buildPhases = (
+				E3E0B3AC2999A5B3007DDEAF /* Sources */,
+				E3E0B3AD2999A5B3007DDEAF /* Frameworks */,
+				E3E0B3AE2999A5B3007DDEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E0B3B22999A5B3007DDEAF /* PBXTargetDependency */,
+			);
+			name = "Kindley Notes OrganizerTests";
+			productName = "Kindley Notes OrganizerTests";
+			productReference = E3E0B3B02999A5B3007DDEAF /* Kindley Notes OrganizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3E0B3B92999A5B3007DDEAF /* Kindley Notes OrganizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E0B3CA2999A5B3007DDEAF /* Build configuration list for PBXNativeTarget "Kindley Notes OrganizerUITests" */;
+			buildPhases = (
+				E3E0B3B62999A5B3007DDEAF /* Sources */,
+				E3E0B3B72999A5B3007DDEAF /* Frameworks */,
+				E3E0B3B82999A5B3007DDEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E0B3BC2999A5B3007DDEAF /* PBXTargetDependency */,
+			);
+			name = "Kindley Notes OrganizerUITests";
+			productName = "Kindley Notes OrganizerUITests";
+			productReference = E3E0B3BA2999A5B3007DDEAF /* Kindley Notes OrganizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E0B3922999A5B2007DDEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E3E0B3992999A5B2007DDEAF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E3E0B3AF2999A5B3007DDEAF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E3E0B3992999A5B2007DDEAF;
+					};
+					E3E0B3B92999A5B3007DDEAF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E3E0B3992999A5B2007DDEAF;
+					};
+				};
+			};
+			buildConfigurationList = E3E0B3952999A5B2007DDEAF /* Build configuration list for PBXProject "Kindley Notes Organizer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3E0B3912999A5B2007DDEAF;
+			productRefGroup = E3E0B39B2999A5B2007DDEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E0B3992999A5B2007DDEAF /* Kindley Notes Organizer */,
+				E3E0B3AF2999A5B3007DDEAF /* Kindley Notes OrganizerTests */,
+				E3E0B3B92999A5B3007DDEAF /* Kindley Notes OrganizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E0B3982999A5B2007DDEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E0B3A52999A5B3007DDEAF /* Preview Assets.xcassets in Resources */,
+				E3E0B3A22999A5B3007DDEAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B3AE2999A5B3007DDEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B3B82999A5B3007DDEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E0B3962999A5B2007DDEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E0B3AA2999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodeld in Sources */,
+				E3E0B3A72999A5B3007DDEAF /* Persistence.swift in Sources */,
+				E3E0B3A02999A5B2007DDEAF /* ContentView.swift in Sources */,
+				E3E0B39E2999A5B2007DDEAF /* Kindley_Notes_OrganizerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B3AC2999A5B3007DDEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E0B3B52999A5B3007DDEAF /* Kindley_Notes_OrganizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B3B62999A5B3007DDEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E0B3BF2999A5B3007DDEAF /* Kindley_Notes_OrganizerUITests.swift in Sources */,
+				E3E0B3C12999A5B3007DDEAF /* Kindley_Notes_OrganizerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3E0B3B22999A5B3007DDEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E0B3992999A5B2007DDEAF /* Kindley Notes Organizer */;
+			targetProxy = E3E0B3B12999A5B3007DDEAF /* PBXContainerItemProxy */;
+		};
+		E3E0B3BC2999A5B3007DDEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E0B3992999A5B2007DDEAF /* Kindley Notes Organizer */;
+			targetProxy = E3E0B3BB2999A5B3007DDEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3E0B3C22999A5B3007DDEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3E0B3C32999A5B3007DDEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E3E0B3C52999A5B3007DDEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Kindley Notes Organizer/Kindley_Notes_Organizer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kindley Notes Organizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 68UX7522C3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danieljames.Kindley-Notes-Organizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E3E0B3C62999A5B3007DDEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Kindley Notes Organizer/Kindley_Notes_Organizer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kindley Notes Organizer/Preview Content\"";
+				DEVELOPMENT_TEAM = 68UX7522C3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danieljames.Kindley-Notes-Organizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E3E0B3C82999A5B3007DDEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68UX7522C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danieljames.Kindley-Notes-OrganizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kindley Notes Organizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kindley Notes Organizer";
+			};
+			name = Debug;
+		};
+		E3E0B3C92999A5B3007DDEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68UX7522C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danieljames.Kindley-Notes-OrganizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kindley Notes Organizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kindley Notes Organizer";
+			};
+			name = Release;
+		};
+		E3E0B3CB2999A5B3007DDEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68UX7522C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danieljames.Kindley-Notes-OrganizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Kindley Notes Organizer";
+			};
+			name = Debug;
+		};
+		E3E0B3CC2999A5B3007DDEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68UX7522C3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "danieljames.Kindley-Notes-OrganizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Kindley Notes Organizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E0B3952999A5B2007DDEAF /* Build configuration list for PBXProject "Kindley Notes Organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E0B3C22999A5B3007DDEAF /* Debug */,
+				E3E0B3C32999A5B3007DDEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E0B3C42999A5B3007DDEAF /* Build configuration list for PBXNativeTarget "Kindley Notes Organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E0B3C52999A5B3007DDEAF /* Debug */,
+				E3E0B3C62999A5B3007DDEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E0B3C72999A5B3007DDEAF /* Build configuration list for PBXNativeTarget "Kindley Notes OrganizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E0B3C82999A5B3007DDEAF /* Debug */,
+				E3E0B3C92999A5B3007DDEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E0B3CA2999A5B3007DDEAF /* Build configuration list for PBXNativeTarget "Kindley Notes OrganizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E0B3CB2999A5B3007DDEAF /* Debug */,
+				E3E0B3CC2999A5B3007DDEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3E0B3A82999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3E0B3A92999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodel */,
+			);
+			currentVersion = E3E0B3A92999A5B3007DDEAF /* Kindley_Notes_Organizer.xcdatamodel */;
+			path = Kindley_Notes_Organizer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3E0B3922999A5B2007DDEAF /* Project object */;
+}
